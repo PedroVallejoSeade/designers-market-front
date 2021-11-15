@@ -279,3 +279,120 @@ code {
   fill: rgba(65, 82, 141, 1);
   cursor: pointer;
 }
+
+.buiness-profile-content-container {
+  height: 572.9px;
+  width: 1130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buiness-profile-content-column-1 {
+  height: 572.9px;
+  width: 700px;
+}
+
+.buiness-profile-content-column-2 {
+  background-color: magenta;
+  height: 572.9px;
+  width: 430px;
+}
+
+.buiness-profile-content-column-1-row-1 {
+  height: 134.8px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.buiness-profile-content-column-1-row-2 {
+  height: 227px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buiness-profile-content-column-1-row-3 {
+  background-color: red;
+  height: 43px;
+  width: 700px;
+}
+
+.buiness-profile-content-column-1-row-4 {
+  background-color: green;
+  height: 168.1px;
+  width: 700px;
+}
+
+.poppins-64 {
+  font-size: 64px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buiness-profile-picture-container {
+  height: 227px;
+  width: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-picture {
+  background-color: blue;
+  height: 217px;
+  width: 217px;
+  border-radius: 200px;
+  background: url(./assets/buisiness-profile-pic.jpeg);
+  background-size: cover;
+}
+
+.buiness-profile-description-container {
+  height: 227px;
+  width: 408px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description {
+  background-color: rgba(108, 181, 222, 0.8);
+  height: 217px;
+  width: 398px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description-text-area {
+  height: 187px;
+  width: 368px;
+  display: flex;
+  overflow-y: scroll;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-1::-webkit-scrollbar-track {
+  background: rgba(108, 181, 222, 0.5);
+}
+
+/* Handle */
+#style-1::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-1::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.poppins-14 {
+  font-size: 14px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
