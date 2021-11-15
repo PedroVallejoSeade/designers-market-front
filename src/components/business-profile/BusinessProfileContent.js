@@ -1,25 +1,25 @@
 import React from 'react'
-import BuisinessCard from './BuisinessCard'
+import BusinessProfileJob from './BusinessProfileJob'
 
 const BusinessProfileContent = () => {
-    const obj = [
+    const jobs = [
         {
-            id: 1,
-            atr1: "Hola",
-            atr2: "adios"
+            jobTitle: "Diseño de logo"
         },
         {
-            id: 2,
-            atr1: "Hola2",
-            atr2: "adios2"
+            jobTitle: "Diseño de publicidad"
         },
         {
-            id: 3,
-            atr1: "HHHH",
-            atr2: "AAAAA"
+            jobTitle: "Diseño afiche oficina"
         },
+        {
+            jobTitle: "Diseño mural"
+        },
+        {
+            jobTitle: "Diseño animación mesa"
+        }
     ]
-
+    
     return (
         <div className="content-card">
             <div className="buiness-profile-content-container">
@@ -34,25 +34,26 @@ const BusinessProfileContent = () => {
                         <div className="buiness-profile-description-container">
                             <div className="buiness-profile-description">
                                 <div className="buiness-profile-description-text-area" id="style-1">
-                                    <p className="poppins-14">Lorem Ipsum</p>
+                                    <p className="poppins-14">Son 33 años de experiencia que nos han dado visión y conocimiento para crear espacios con nuevas perspectivas. Compartimos nuestra esencia y trabajamos para cumplir los objetivos de nuestros clientes, logrando un equilibrio perfecto entre ideas y resultados.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="buiness-profile-content-column-1-row-3">
-                        
+                        <p className="poppins-36">Trabajos que solicita la empresa:</p>
                     </div>
                     <div className="buiness-profile-content-column-1-row-4">
-                        
+                        <div className="buiness-profile-jobs-container" id="style-2">
+                            {jobs.map((job) => (
+                                <BusinessProfileJob
+                                    jobDescription = {job.jobTitle}
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
                 <div className="buiness-profile-content-column-2">
-                    {obj.map((element) => (
-                    <BuisinessCard
-                        hola={element.atr1}
-                        adios={element.atr2}
-                    />
-                ))}
+
                 </div>
             </div>
         </div>

@@ -313,15 +313,43 @@ code {
 }
 
 .buiness-profile-content-column-1-row-3 {
-  background-color: red;
   height: 43px;
   width: 700px;
+  display: flex;
+  align-items: center;
 }
 
 .buiness-profile-content-column-1-row-4 {
-  background-color: green;
   height: 168.1px;
   width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buiness-profile-jobs-container {
+  height: 148.1px;
+  width: 680px;
+  overflow-y: scroll;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-2::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#style-2::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-2::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .poppins-64 {
@@ -368,8 +396,8 @@ code {
 .buiness-profile-description-text-area {
   height: 187px;
   width: 368px;
-  display: flex;
   overflow-y: scroll;
+  text-align: left;
 }
 
 #style-1::-webkit-scrollbar {
@@ -378,7 +406,7 @@ code {
 
 /* Track */
 #style-1::-webkit-scrollbar-track {
-  background: rgba(108, 181, 222, 0.5);
+  background: transparent;
 }
 
 /* Handle */
@@ -395,4 +423,21 @@ code {
   font-size: 14px;
   margin: 0px;
   font-family: "Poppins", sans-serif;
+}
+
+.poppins-36 {
+  font-size: 36px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.business-profile-job-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
 }
