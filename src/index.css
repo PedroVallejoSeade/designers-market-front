@@ -279,3 +279,81 @@ code {
   fill: rgba(65, 82, 141, 1);
   cursor: pointer;
 }
+
+
+
+
+
+
+
+.designer-profile-content-container {
+  height: 572.9px;
+  width: 1130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.designer-profile-content-column-1 {
+  height: 572.9px;
+  width: 600px;
+}
+
+.designer-profile-content-column-1-row-1 {
+  height: 60px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.designer-poppins-64 {
+  font-size: 64px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.designer-h3{
+  text-align: left;
+  margin-left:40px; 
+  font-weight: normal;
+}
+
+.designer-h3-2{
+  text-align: center;
+  margin-left:40px; 
+  font-weight: normal;
+  color: #41528d;
+  font-weight: bold;
+  
+}
+
+
+.designer-profile-content-column-1-row-2 {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.designer-profile-content-card {
+  height: 350px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  font-family: "Poppins", sans-serif;
+  color: #41528d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+
+.designer-profile-picture {
+  height: 80%; 
+  width: 80%;
+  background-image: url("assets/image profile.png");
+  background-size: cover;
+}
