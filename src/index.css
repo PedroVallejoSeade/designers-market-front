@@ -18,7 +18,7 @@ code {
 .landing-page-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-contratante.png);
+  background-image: url("./assets/background-contratante.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -198,7 +198,7 @@ code {
 .designer-pages-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-diseñador.png);
+  background-image: url("./assets/background-diseñador.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -209,7 +209,7 @@ code {
 .business-pages-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-contratante.png);
+  background-image: url("./assets/background-diseñador.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -373,7 +373,7 @@ code {
   height: 217px;
   width: 217px;
   border-radius: 200px;
-  background: url(./assets/buisiness-profile-pic.jpeg);
+  background-image: url("./assets/buisiness-profile-pic.jpeg");
   background-size: cover;
 }
 
