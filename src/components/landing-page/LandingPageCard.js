@@ -12,7 +12,7 @@ const LandingPageCard = () => {
                 <div className="landing-page-card-button-container">
                     <div className="landing-page-card-button-container-disigners">
                         <p className="landing-page-card-button-title">Para diseñadores:</p>
-                        <Link style={{ textDecoration: 'none' }} to='/disigner/profile'>
+                        <Link style={{ textDecoration: 'none' }} to='/designer/profile'>
                             <div className="landing-page-card-button-disigners">
                                 <p className="landing-page-card-button-in-title">Encuentra un trabajo</p>
                                 <p className="landing-page-card-button-in-subtitle">freelance de diseño gráfico</p>
