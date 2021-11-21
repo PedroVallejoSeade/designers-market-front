@@ -298,7 +298,7 @@ code {
 }
 
 
-.designer-profile-content-container {
+.buiness-profile-content-container {
   height: 572.9px;
   width: 1130px;
   display: flex;
@@ -352,10 +352,79 @@ code {
 }
 
 .designer-poppins-64 {
+.buiness-profile-content-column-1 {
+  height: 572.9px;
+  width: 700px;
+}
+
+.buiness-profile-content-column-2 {
+  height: 572.9px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.buiness-profile-content-column-1-row-1 {
+  height: 134.8px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.buiness-profile-content-column-1-row-2 {
+  height: 227px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buiness-profile-content-column-1-row-3 {
+  height: 43px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.buiness-profile-content-column-1-row-4 {
+  height: 168.1px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buiness-profile-jobs-container {
+  height: 148.1px;
+  width: 680px;
+  overflow-y: scroll;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-2::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#style-2::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-2::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.poppins-64 {
   font-size: 64px;
   margin: 0px;
   font-family: "Poppins", sans-serif;
 }
+
 
 .designer-poppins-titulo{
   font-size: 45px;
@@ -521,4 +590,234 @@ code {
   align-items: center;
   flex-direction: column;
   margin: 29px 0px 50px 50px;
+}
+
+.buiness-profile-picture-container {
+  height: 227px;
+  width: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-picture {
+  background-color: blue;
+  height: 217px;
+  width: 217px;
+  border-radius: 200px;
+  background-image: url("./assets/buisiness-profile-pic.jpeg");
+  background-size: cover;
+}
+
+.buiness-profile-description-container {
+  height: 227px;
+  width: 408px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description {
+  background-color: rgba(108, 181, 222, 0.8);
+  height: 217px;
+  width: 398px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description-text-area {
+  height: 187px;
+  width: 368px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-1::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#style-1::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-1::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.poppins-14 {
+  font-size: 14px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-36 {
+  font-size: 36px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.business-profile-job-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-num-des {
+  height: 130px;
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-rating {
+  height: 130px;
+  width: 430px;
+}
+
+.buiness-profile-comments {
+  height: 240px;
+  width: 430px;
+}
+
+.poppins-30 {
+  font-size: 24px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buiness-profile-num-des-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-star {
+  fill: #61ff00;
+}
+
+.buiness-profile-fifth-star {
+  fill: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%);
+}
+
+.business-profile-comment-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-comments-conatiner {
+  overflow-y: scroll;
+  height: 196px;
+}
+
+.business-profile-comment-text-area {
+  width: 300px;
+}
+
+.bussiness-create-job-container {
+  height: 570px;
+  width: 1130px;
+}
+
+.bussiness-create-job-content-row-1 {
+  height: 110px;
+  width: 1130px;
+  text-align: left;
+}
+
+.bussiness-create-job-content-row-2 {
+  height: 360px;
+  width: 1130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bussiness-create-job-content-row-3 {
+  height: 100px;
+  width: 1130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bussiness-create-job-content-row-2-column-1 {
+  height: 360px;
+  width: 400px;
+}
+
+.bussiness-create-job-content-row-2-column-2 {
+  height: 360px;
+  width: 730px;
+}
+
+.button1 {
+  background-color: rgba(121, 236, 119, 0.6);
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  border: solid;
+  border-width: thin;
+}
+
+.button1:hover {
+  background-color: rgba(121, 236, 119, 1);
+  cursor: pointer;
+}
+
+.bussiness-create-job-content-row-2-column-1-element {
+  height: 60px;
+  text-align: left;
+}
+
+.bussiness-create-job-content-row-2-column-2-element-container {
+  width: 730px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bussiness-create-job-content-text-area {
+  background-color: rgba(108, 181, 222, 0.8);
+  width: 730px;
+  height: 50px;
+  border-radius: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bussiness-create-job-content-text-area-content {
+  background-color: transparent;
+  resize: none;
+  width: 700px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border: none;
+  color: #41528d;
 }
