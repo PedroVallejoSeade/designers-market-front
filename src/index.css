@@ -471,3 +471,54 @@ code {
   text-align: left;
   align-items: center;
 }
+
+.designer-calificacion-picture {
+  background-color: blue;
+  margin-left: 140px;
+  margin-top: 40px; 
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  background-image: url("./assets/contratante-calificacion.jpeg");
+  background-size: cover;
+}
+
+.designer-calificacion-content-column-1{
+  height: 572.9px;
+  width: 1000px;
+}
+
+.h3-calificacion{
+  text-align: left;
+  align-content: top;
+  align-items: top;
+  margin-top: -80px;
+  margin-left: 285px;
+  font-weight: bold;
+
+}
+
+.h3-calificacion-2{
+  text-align: left;
+  align-content: top;
+  align-items: top;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+
+.calificacion-texto {
+  height: 150px;
+  width: 1000px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  font-family: "Poppins", sans-serif;
+  color: #41528d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 29px 0px 50px 50px;
+}

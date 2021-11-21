@@ -6,7 +6,7 @@ const DesignerProfileContent = () => {
             <div className="designer-profile-content-container">
                 <div className="designer-profile-content-column-1">
                     <div className="designer-profile-content-column-1-row-1">
-                        <p className="designer-poppins-64">Elisa Arroyo</p>
+                        <p className="designer-poppins-64">Isabela Ortiz</p>
                         
                     </div>
                     <div>
@@ -40,7 +40,7 @@ const DesignerProfileContent = () => {
                             <p className="texto-profile-description">Buena diseñadora, fue muy cumplida con los tiempos y receptiva a los cambios que le solicité. </p>
                         </div>
                     </div>
-                    <div></div>
+                   
                     <div className="designer-profile-description-2">
                         <div>
                             <p className="texto-profile-description">Tuvimos un contratiempo en el diseño porque no hubo comunicación clara de qué era lo que se quería, pero se logró resolver al final.</p>
