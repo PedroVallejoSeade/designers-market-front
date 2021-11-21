@@ -11,6 +11,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import DesignerAplicar from './components/designer-aplicar/DesignerAplicar';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/disigner/profile' element={<DesignerProfile/>}/>
           <Route path='/business/profile' element={<BusinessProfile/>}/>
           <Route path='/business/createOffer' element={<BusinessCreateJob/>}/>
+          <Route path='/designer/aplicar' element={<DesignerAplicar/>}/>
         </Routes>
       </Router>
     </div>
