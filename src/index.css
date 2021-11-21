@@ -279,3 +279,227 @@ code {
   fill: rgba(65, 82, 141, 1);
   cursor: pointer;
 }
+
+.buiness-profile-content-container {
+  height: 572.9px;
+  width: 1130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buiness-profile-content-column-1 {
+  height: 572.9px;
+  width: 700px;
+}
+
+.buiness-profile-content-column-2 {
+  height: 572.9px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.buiness-profile-content-column-1-row-1 {
+  height: 134.8px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.buiness-profile-content-column-1-row-2 {
+  height: 227px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buiness-profile-content-column-1-row-3 {
+  height: 43px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.buiness-profile-content-column-1-row-4 {
+  height: 168.1px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buiness-profile-jobs-container {
+  height: 148.1px;
+  width: 680px;
+  overflow-y: scroll;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-2::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#style-2::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-2::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.poppins-64 {
+  font-size: 64px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buiness-profile-picture-container {
+  height: 227px;
+  width: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-picture {
+  background-color: blue;
+  height: 217px;
+  width: 217px;
+  border-radius: 200px;
+  background: url(./assets/buisiness-profile-pic.jpeg);
+  background-size: cover;
+}
+
+.buiness-profile-description-container {
+  height: 227px;
+  width: 408px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description {
+  background-color: rgba(108, 181, 222, 0.8);
+  height: 217px;
+  width: 398px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-description-text-area {
+  height: 187px;
+  width: 368px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#style-1::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#style-1::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#style-1::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.poppins-14 {
+  font-size: 14px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-36 {
+  font-size: 36px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.business-profile-job-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-num-des {
+  height: 130px;
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-rating {
+  height: 130px;
+  width: 430px;
+}
+
+.buiness-profile-comments {
+  height: 240px;
+  width: 430px;
+}
+
+.poppins-30 {
+  font-size: 24px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buiness-profile-num-des-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-star {
+  fill: #61ff00;
+}
+
+.buiness-profile-fifth-star {
+  fill: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%);
+}
+
+.business-profile-comment-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-comments-conatiner {
+  overflow-y: scroll;
+  height: 196px;
+}
+
+.business-profile-comment-text-area {
+  width: 300px;
+}
