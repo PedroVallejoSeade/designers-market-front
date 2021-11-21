@@ -293,9 +293,11 @@ code {
 }
 
 .buiness-profile-content-column-2 {
-  background-color: magenta;
   height: 572.9px;
   width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .buiness-profile-content-column-1-row-1 {
@@ -440,4 +442,64 @@ code {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+}
+
+.buiness-profile-num-des {
+  height: 130px;
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buiness-profile-rating {
+  height: 130px;
+  width: 430px;
+}
+
+.buiness-profile-comments {
+  height: 240px;
+  width: 430px;
+}
+
+.poppins-30 {
+  font-size: 24px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buiness-profile-num-des-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-star {
+  fill: #61ff00;
+}
+
+.buiness-profile-fifth-star {
+  fill: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%);
+}
+
+.business-profile-comment-container {
+  background-color: rgba(108, 181, 222, 0.8);
+  text-align: left;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.buiness-profile-comments-conatiner {
+  overflow-y: scroll;
+  height: 196px;
+}
+
+.business-profile-comment-text-area {
+  width: 300px;
 }

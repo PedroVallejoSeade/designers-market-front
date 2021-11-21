@@ -1,5 +1,6 @@
 import React from 'react'
 import BusinessProfileJob from './BusinessProfileJob'
+import BusinessProfileComment from './BusinessProfileComment'
 
 const BusinessProfileContent = () => {
     const jobs = [
@@ -17,6 +18,24 @@ const BusinessProfileContent = () => {
         },
         {
             jobTitle: "Diseño animación mesa"
+        }
+    ]
+
+    const comments = [
+        {
+            comment: "Es una buena empresa, pagan a tiempo y son muy respetuosos"
+        },
+        {
+            comment: "De las mejores empresas para las que he hecho un trabajo"
+        },
+        {
+            comment: "Volveria a trabajar con ellos"
+        },
+        {
+            comment: "La experiencia de trabajo con AVS es muy amena"
+        },
+        {
+            comment: "Muy razonables con los tiempos de entrega"
         }
     ]
     
@@ -53,7 +72,30 @@ const BusinessProfileContent = () => {
                     </div>
                 </div>
                 <div className="buiness-profile-content-column-2">
-
+                    <div className="buiness-profile-num-des">
+                        <p className="poppins-30">Numero de dieñadores contratados:</p>
+                        <div className="buiness-profile-num-des-container">
+                            <p className="poppins-36">57</p>
+                        </div>
+                    </div>
+                    <div className="buiness-profile-rating">
+                        <p className="poppins-30">Calificación:</p>
+                        <svg className = "buiness-profile-star" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        <svg className = "buiness-profile-star" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        <svg className = "buiness-profile-star" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        <svg className = "buiness-profile-star" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        <svg className = "buiness-profile-fifth-star" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                    </div>
+                    <div className="buiness-profile-comments">
+                        <p className="poppins-30">Comentarios:</p>
+                        <div className="buiness-profile-comments-conatiner" id="style-2">
+                            {comments.map((element) =>(
+                                <BusinessProfileComment
+                                    comment ={element.comment}
+                                />
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
