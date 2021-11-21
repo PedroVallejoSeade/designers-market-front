@@ -18,7 +18,7 @@ code {
 .landing-page-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-contratante.png);
+  background-image: url("./assets/background-contratante.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -198,7 +198,7 @@ code {
 .designer-pages-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-diseñador.png);
+  background-image: url("./assets/background-diseñador.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -209,7 +209,7 @@ code {
 .business-pages-container {
   height: max(100vh, 788.5px);
   width: max(100vw, 1440px);
-  background: url(./assets/background-contratante.png);
+  background-image: url("./assets/background-contratante.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -373,7 +373,7 @@ code {
   height: 217px;
   width: 217px;
   border-radius: 200px;
-  background: url(./assets/buisiness-profile-pic.jpeg);
+  background-image: url("./assets/buisiness-profile-pic.jpeg");
   background-size: cover;
 }
 
@@ -502,4 +502,90 @@ code {
 
 .business-profile-comment-text-area {
   width: 300px;
+}
+
+.bussiness-create-job-container {
+  height: 570px;
+  width: 1130px;
+}
+
+.bussiness-create-job-content-row-1 {
+  height: 110px;
+  width: 1130px;
+  text-align: left;
+}
+
+.bussiness-create-job-content-row-2 {
+  height: 360px;
+  width: 1130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bussiness-create-job-content-row-3 {
+  height: 100px;
+  width: 1130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bussiness-create-job-content-row-2-column-1 {
+  height: 360px;
+  width: 400px;
+}
+
+.bussiness-create-job-content-row-2-column-2 {
+  height: 360px;
+  width: 730px;
+}
+
+.button1 {
+  background-color: rgba(121, 236, 119, 0.6);
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  border: solid;
+  border-width: thin;
+}
+
+.button1:hover {
+  background-color: rgba(121, 236, 119, 1);
+  cursor: pointer;
+}
+
+.bussiness-create-job-content-row-2-column-1-element {
+  height: 60px;
+  text-align: left;
+}
+
+.bussiness-create-job-content-row-2-column-2-element-container {
+  width: 730px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bussiness-create-job-content-text-area {
+  background-color: rgba(108, 181, 222, 0.8);
+  width: 730px;
+  height: 50px;
+  border-radius: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bussiness-create-job-content-text-area-content {
+  background-color: transparent;
+  resize: none;
+  width: 700px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border: none;
+  color: #41528d;
 }
