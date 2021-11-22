@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const DesignerOfertaDetalleContent = () => {
     return (
@@ -46,10 +48,13 @@ const DesignerOfertaDetalleContent = () => {
                 <h2 className="designer-h3-right-1"> 03-02-22</h2>
                 <h2 className="designer-h3-right-2"> 03-04-22</h2>
 
+                <Link style={{ textDecoration: 'none'}} to='/designer/aplicar'>
                 <div className="oferta-detalle-button-verde">
                 <p className="landing-page-card-button-in-title">Aplicar</p>
-                               
                 </div>
+                </Link>
+                               
+                
 
                     
                 </div>
