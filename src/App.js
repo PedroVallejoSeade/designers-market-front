@@ -10,6 +10,8 @@ import DesignerArchivos from './components/designer-archivos/DesignerArchivos'
 import DesignerAplicar from './components/designer-aplicar/DesignerAplicar';
 import DesignerArchivosSubidos from './components/designer-archivos-subidos/DesignerArchivosSubidos';
 import DesignerEnviar from './components/designer-enviar/DesignerEnviar';
+import DesignerPago from './components/designer-pago/DesignerPago';
+
 
 
 import {
@@ -37,6 +39,7 @@ function App() {
           <Route path='/designer/archivos' element={<DesignerArchivos/>}/>
           <Route path='/designer/archivossubidos' element={<DesignerArchivosSubidos/>}/>
           <Route path='/designer/archivosenviar' element={<DesignerEnviar/>}/>
+          <Route path='/designer/pago' element={<DesignerPago/>}/>
 
 
         </Routes>

@@ -202,6 +202,22 @@ code {
   border-width: thin;
 }
 
+.pago-detalle-button-verde-2{
+  margin-top: 450px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(121, 236, 119, 0.6);
+  width: 350px;
+  height: 100px;
+  border-radius: 60px;
+  border: solid;
+  border-width: thin;
+}
+
+
 .subir-button-verde{
   margin-top: -350px;
   margin-left: 280px;
@@ -241,6 +257,12 @@ code {
   font-size: 36px;
   margin: 0px;
 }
+
+.designer-pago-card-button-in-title{
+  font-size: 30px;
+  margin: 0px;
+}
+
 .archivos-page-card-button-in-title {
   font-size: 20px;
   margin: 0px;
@@ -509,6 +531,16 @@ code {
   align-items: center;
   margin-top: 230px;
   margin-left:200px; 
+  font-weight: nromal;
+  font-size: larger;
+}
+
+
+.designer-h3-center-2{
+  text-align: center;
+  align-items: center;
+  margin-top: 230px;
+  margin-left:290px; 
   font-weight: nromal;
   font-size: larger;
 }
