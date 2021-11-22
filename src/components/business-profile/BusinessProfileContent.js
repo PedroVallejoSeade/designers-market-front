@@ -18,6 +18,9 @@ const BusinessProfileContent = () => {
         },
         {
             jobTitle: "Diseño animación mesa"
+        },
+        {
+            jobTitle: "Diseño landing page"
         }
     ]
 
@@ -88,7 +91,7 @@ const BusinessProfileContent = () => {
                     </div>
                     <div className="buiness-profile-comments">
                         <p className="poppins-30">Comentarios:</p>
-                        <div className="buiness-profile-comments-conatiner" id="style-2">
+                        <div className="buiness-profile-comments-conatiner" id="style-1">
                             {comments.map((element) =>(
                                 <BusinessProfileComment
                                     comment ={element.comment}
