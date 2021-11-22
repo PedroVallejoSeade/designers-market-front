@@ -7,6 +7,7 @@ import DesignerOfertaDetalle from './components/designer-oferta-detalle/Designer
 import DesignerCalificacion from './components/designer-calificacion/DesignerCalificacion';
 import BusinessCreateJob from './components/business-create-job/BusinessCreateJob';
 import BusinessJobList from './components/business-job-list/BusinessJobList'
+import BusinessJobSelection from './components/business-job-selection/BusinessJobSelection'
 import {
   BrowserRouter as Router,
   Routes,
@@ -28,6 +29,7 @@ function App() {
           <Route path='/business/profile' element={<BusinessProfile/>}/>
           <Route path='/business/createOffer' element={<BusinessCreateJob/>}/>
           <Route path='/business/jobs' element={<BusinessJobList/>}/>
+          <Route path='/business/1/job/1/selection' element={<BusinessJobSelection/>}/>
         </Routes>
       </Router>
     </div>

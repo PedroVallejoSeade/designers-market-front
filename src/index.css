@@ -931,3 +931,78 @@ code {
 #style-3::-webkit-scrollbar {
   width: 0px;
 }
+
+.cartera {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 70px;
+  width: 410px;
+  position: absolute;
+  top: 80px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(65, 82, 141, 1);
+}
+
+.business-job-selection-content-container {
+  height: 570px;
+  width: 1130px;
+}
+
+.business-job-selection-content-row-1 {
+  height: 100px;
+  width: 1130px;
+  text-align: left;
+}
+
+.business-job-selection-content-row-2 {
+  height: 65px;
+  width: 1130px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-job-selection-content-row-3 {
+  background-color: orange;
+  height: 340px;
+  width: 1130px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.business-job-selection-content-row-4 {
+  height: 65px;
+  width: 1130px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-arrow-icon {
+  transform: rotate(270deg);
+  margin: 0px 20px 0px 0px;
+  fill: rgba(65, 82, 141, 0.6);
+}
+
+.up-arrow-icon:hover {
+  fill: rgba(65, 82, 141, 1);
+  cursor: pointer;
+}
+
+.down-arrow-icon {
+  transform: rotate(90deg);
+  margin: 0px 20px 0px 0px;
+  fill: rgba(65, 82, 141, 0.6);
+}
+
+.down-arrow-icon:hover {
+  fill: rgba(65, 82, 141, 1);
+  cursor: pointer;
+}

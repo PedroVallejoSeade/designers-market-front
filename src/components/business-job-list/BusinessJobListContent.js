@@ -1,12 +1,9 @@
 import React from 'react'
 import BusinessJobCard from './BusinessJobCard'
+import { Link } from 'react-router-dom'
 
 const BusinessJobListContent = () => {
     const jobs = [
-        {
-            title: "Diseño de logo",
-            description: "Como pequeña empresa que busca crecer, estamos necesitando un nuevo logo que se alinee con las espectativas de nuestros futuros clientes. Buscamos un logo innovador, alegre pero también minimalista"
-        },
         {
             title: "Diseño de publicidad",
             description: "Estamo en busqueda de un diseñador que nos ayude con el proceso creativo para un anuncio de publicidad el cual se planea mostrar en la web"
@@ -28,6 +25,9 @@ const BusinessJobListContent = () => {
             description: "Estamos renovando nuestra pagina web y para esto estamos en busquda de un diseñador que nos ayude a crear nuestra nueva landing page."
         },
     ]
+
+    const title = "Diseño de logo"
+    const description = "Como pequeña empresa que busca crecer, estamos necesitando un nuevo logo que se alinee con las espectativas de nuestros futuros clientes. Buscamos un logo innovador, alegre pero también minimalista"
     
     return (
         <div className="content-card">
@@ -40,6 +40,11 @@ const BusinessJobListContent = () => {
                         <svg className = "left-arrow-icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
                     </div>
                     <div className="business-job-list-content-row-2-column-2">
+                        <Link style={{ textDecoration: 'none'}} to='/business/1/job/1/selection'>
+                            <BusinessJobCard
+                                title ={title} description ={description}
+                            />
+                        </Link>
                         {jobs.map((element) =>(
                             <BusinessJobCard
                                 title ={element.title} description ={element.description}
