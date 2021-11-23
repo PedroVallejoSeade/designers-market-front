@@ -33,7 +33,7 @@ const BusinessJobListContent = () => {
         <div className="content-card">
             <div className="business-job-list-content-container">
                 <div className="business-job-list-content-row-1">
-                    <p className="poppins-64">Mis Ofertas</p>
+                    <p className="poppins-64">Mis Ofertas y Trabajos</p>
                 </div>
                 <div className="business-job-list-content-row-2">
                     <div className="business-job-list-content-row-2-column-1">
@@ -46,9 +46,11 @@ const BusinessJobListContent = () => {
                             />
                         </Link>
                         {jobs.map((element) =>(
-                            <BusinessJobCard
-                                title ={element.title} description ={element.description}
-                            />
+                            <Link style={{ textDecoration: 'none'}} to='/business/1/job/1/selection'>
+                                <BusinessJobCard
+                                    title ={element.title} description ={element.description}
+                                />
+                            </Link>
                         ))}
                     </div>
                     <div className="business-job-list-content-row-2-column-3">

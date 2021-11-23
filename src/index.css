@@ -185,7 +185,7 @@ code {
   border-width: thin;
 }
 
-.oferta-detalle-button-verde-2{
+.oferta-detalle-button-verde-2 {
   margin-top: 450px;
   margin-left: 30px;
   display: flex;
@@ -200,7 +200,7 @@ code {
   border-width: thin;
 }
 
-.pago-detalle-button-verde-2{
+.pago-detalle-button-verde-2 {
   margin-top: 450px;
   margin-left: 30px;
   display: flex;
@@ -215,8 +215,7 @@ code {
   border-width: thin;
 }
 
-
-.subir-button-verde{
+.subir-button-verde {
   margin-top: -350px;
   margin-left: 280px;
   display: flex;
@@ -231,7 +230,7 @@ code {
   border-width: thin;
 }
 
-.subir-button-verde-2{
+.subir-button-verde-2 {
   margin-top: -30px;
   margin-left: 900px;
   display: flex;
@@ -256,7 +255,7 @@ code {
   margin: 0px;
 }
 
-.designer-pago-card-button-in-title{
+.designer-pago-card-button-in-title {
   font-size: 30px;
   margin: 0px;
 }
@@ -523,21 +522,20 @@ code {
 
   margin-top: 100px;
 }
-.designer-h3-center{
+.designer-h3-center {
   text-align: center;
   align-items: center;
   margin-top: 230px;
-  margin-left:200px; 
+  margin-left: 200px;
   font-weight: nromal;
   font-size: larger;
 }
 
-
-.designer-h3-center-2{
+.designer-h3-center-2 {
   text-align: center;
   align-items: center;
   margin-top: 230px;
-  margin-left:290px; 
+  margin-left: 290px;
   font-weight: nromal;
   font-size: larger;
 }
@@ -554,11 +552,11 @@ code {
   margin-right: 30px;
 }
 
-.designer-h3-4{
+.designer-h3-4 {
   text-align: center;
   font-weight: normal;
-  margin-left:20px; 
-  margin-right:30px; 
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
 .designer-h3-2 {
@@ -804,15 +802,15 @@ code {
   font-size: 24px;
   margin-top: 20px;
   font-family: "Poppins", sans-serif;
-  text-align:left; 
-  margin-left:30px; 
+  text-align: left;
+  margin-left: 30px;
 }
 .poppins-30-d-1 {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
-  text-align:left; 
-  margin-left:30px; 
-  margin-top:-10px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -10px;
 }
 
 .buiness-profile-num-des-container {
@@ -839,8 +837,6 @@ code {
 .designer-calificacion-fifth-star {
   fill: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%);
 }
-
-
 
 .business-profile-comment-container {
   background-color: rgba(108, 181, 222, 0.8);
@@ -969,36 +965,36 @@ code {
   color: #41528d;
 }
 
-.designer-archivos-texto{
+.designer-archivos-texto {
   text-align: left;
-  margin-left:280px; 
-  margin-top: -100px; 
+  margin-left: 280px;
+  margin-top: -100px;
   font-weight: bold;
 }
 
-.designer-archivos-texto-2{
+.designer-archivos-texto-2 {
   text-align: left;
-  margin-left:280px; 
-  margin-top: 90px; 
+  margin-left: 280px;
+  margin-top: 90px;
   font-weight: bold;
 }
 
-.designer-archivos-texto-3{
+.designer-archivos-texto-3 {
   text-align: left;
-  margin-left:280px; 
+  margin-left: 280px;
   font-weight: bold;
 }
 
-.designer-archivos-texto-4{
+.designer-archivos-texto-4 {
   text-align: left;
-  margin-left:280px; 
-  margin-top: 60px; 
+  margin-left: 280px;
+  margin-top: 60px;
   font-weight: bold;
 }
 
-.designer-archivos-texto-5{
+.designer-archivos-texto-5 {
   text-align: left;
-  margin-left:280px; 
+  margin-left: 280px;
   font-weight: bold;
 }
 
@@ -1151,7 +1147,6 @@ code {
 }
 
 .business-job-selection-content-row-3 {
-  background-color: orange;
   height: 340px;
   width: 1130px;
   text-align: left;
@@ -1188,4 +1183,106 @@ code {
 .down-arrow-icon:hover {
   fill: rgba(65, 82, 141, 1);
   cursor: pointer;
+}
+
+.business-job-applicant-card {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  height: 80px;
+  margin: 5px;
+}
+
+.business-job-applicant-name {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+}
+
+.business-job-applicant-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.business-job-applicant-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 720px;
+}
+
+.button2 {
+  background-color: rgba(108, 182, 222, 0.6);
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  border: solid;
+  border-width: thin;
+}
+
+.button2:hover {
+  background-color: rgba(108, 182, 222, 1);
+  cursor: pointer;
+}
+
+.business-job-working-column-1 {
+  height: 570px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.business-job-working-column-2 {
+  height: 570px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-job-working-container {
+  display: flex;
+}
+
+.business-job-working-image-container {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 410px;
+  width: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-job-working-image {
+  background: black;
+  height: 125px;
+  width: 340px;
+  background-image: url("./assets/waterMark.png");
+  background-size: fit;
+}
+
+.separator {
+  height: 30px;
+  width: 20px;
+}
+
+#imagen {
+  background-image: url("./assets/newLog.png");
+  height: 120px;
+}
+
+#imagen2 {
+  background-image: url("./assets/imagen.jpeg");
 }

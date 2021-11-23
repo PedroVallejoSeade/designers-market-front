@@ -1,6 +1,7 @@
 import React from 'react'
 import BusinessProfileJob from './BusinessProfileJob'
 import BusinessProfileComment from './BusinessProfileComment'
+import { Link } from 'react-router-dom'
 
 const BusinessProfileContent = () => {
     const jobs = [
@@ -67,9 +68,11 @@ const BusinessProfileContent = () => {
                     <div className="buiness-profile-content-column-1-row-4">
                         <div className="buiness-profile-jobs-container" id="style-2">
                             {jobs.map((job) => (
-                                <BusinessProfileJob
-                                    jobDescription = {job.jobTitle}
-                                />
+                                <Link style={{ textDecoration: 'none'}} to='/business/1/job/1/selection'>
+                                    <BusinessProfileJob
+                                        jobDescription = {job.jobTitle}
+                                    />
+                                </Link>
                             ))}
                         </div>
                     </div>
