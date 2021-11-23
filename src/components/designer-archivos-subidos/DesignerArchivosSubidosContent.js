@@ -1,7 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 const DesignerArchivosSubidosContent = () => {
+    const aceptar=()=>{
+        axios.post('http://localhost:3737/', {
+            "sender": "empresa",
+            "contract": "my_token",
+            "method": "aceptarD"
+          })
+          .then(response => {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+    }
+
     return (
         <div className="content-card">
             <div className="designer-calificacion-content-container">
@@ -27,7 +42,7 @@ const DesignerArchivosSubidosContent = () => {
                 <div className="designer-archivos-texto-4">Fecha entrega PRIMER AVANCE: </div>
                 <div className="designer-archivos-texto-5">12/12/2021 </div>
                 <Link style={{ textDecoration: 'none'}} to='/designer/archivosenviar'>
-                <div className="subir-button-verde-2">
+                <div className="subir-button-verde-2" onClick={()=>aceptar()}>
                 <p className="archivos-page-card-button-in-title">Enviar archivos</p>
                 </div>
                 </Link>

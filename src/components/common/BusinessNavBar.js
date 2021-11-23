@@ -2,12 +2,29 @@ import React from 'react'
 import Logo from './Logo'
 import { Link } from 'react-router-dom'
 import Cartera from './Cartera'
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
+import axios from 'axios'
 
 const BusinessNavBar = () => {
-    const [buttonPopup, setButtonPopup] = useState(false)
 
-    const money = 10000000
+    const [buttonPopup, setButtonPopup] = useState(false)
+    const [cartera, setCartera] = useState([])
+
+    useEffect(()=>{
+        fetchCartera()
+    },[])
+
+    const fetchCartera=()=>{
+        axios.get('http://localhost:3737/contracts/my_token/S?key=empresa')
+        .then(res => {
+            setCartera(res.data.value)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }
+
+    const money = cartera
     
     return (
         <div className="business-navbar">
@@ -25,7 +42,7 @@ const BusinessNavBar = () => {
                     <svg className= "icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12.23 15.5c-6.801 0-10.367-1.221-12.23-2.597v9.097h24v-8.949c-3.218 2.221-9.422 2.449-11.77 2.449zm1.77 2.532c0 1.087-.896 1.968-2 1.968s-2-.881-2-1.968v-1.032h4v1.032zm-14-8.541v-2.491h24v2.605c0 5.289-24 5.133-24-.114zm9-7.491c-1.104 0-2 .896-2 2v2h2v-1.5c0-.276.224-.5.5-.5h5c.276 0 .5.224.5.5v1.5h2v-2c0-1.104-.896-2-2-2h-6z"/></svg>
                 </Link>
                 <Cartera trigger ={buttonPopup} money = {money}></Cartera>
-                <svg onClick = {()=>setButtonPopup(!buttonPopup)} className= "icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M4 8v12h20v-12h-20zm10 10c-2.209 0-4-1.792-4-4s1.791-4 4-4 4 1.792 4 4-1.791 4-4 4zm.2-2.021v.421h-.4v-.399c-.413-.007-.843-.105-1.2-.291l.183-.657c.383.148.892.306 1.289.216.46-.104.555-.577.047-.805-.373-.172-1.512-.322-1.512-1.297 0-.546.415-1.034 1.193-1.141v-.426h.4v.407c.289.008.614.058.978.168l-.146.659c-.307-.107-.646-.206-.977-.185-.596.035-.649.551-.232.767.684.321 1.577.561 1.577 1.418 0 .687-.537 1.053-1.2 1.145zm7.8-8.979h-19v11h-1v-12h20v1zm-2-2h-19v11h-1v-12h20v1z"/></svg>
+                <svg onClick = {()=>{setButtonPopup(!buttonPopup);fetchCartera()}} className= "icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M4 8v12h20v-12h-20zm10 10c-2.209 0-4-1.792-4-4s1.791-4 4-4 4 1.792 4 4-1.791 4-4 4zm.2-2.021v.421h-.4v-.399c-.413-.007-.843-.105-1.2-.291l.183-.657c.383.148.892.306 1.289.216.46-.104.555-.577.047-.805-.373-.172-1.512-.322-1.512-1.297 0-.546.415-1.034 1.193-1.141v-.426h.4v.407c.289.008.614.058.978.168l-.146.659c-.307-.107-.646-.206-.977-.185-.596.035-.649.551-.232.767.684.321 1.577.561 1.577 1.418 0 .687-.537 1.053-1.2 1.145zm7.8-8.979h-19v11h-1v-12h20v1zm-2-2h-19v11h-1v-12h20v1z"/></svg>
                 <Link style={{ textDecoration: 'none'}} to='/business/profile'>
                     <svg className= "icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-3.123 0-5.914-1.441-7.749-3.69.259-.588.783-.995 1.867-1.246 2.244-.518 4.459-.981 3.393-2.945-3.155-5.82-.899-9.119 2.489-9.119 3.322 0 5.634 3.177 2.489 9.119-1.035 1.952 1.1 2.416 3.393 2.945 1.082.25 1.61.655 1.871 1.241-1.836 2.253-4.628 3.695-7.753 3.695z"/></svg>
                 </Link>
