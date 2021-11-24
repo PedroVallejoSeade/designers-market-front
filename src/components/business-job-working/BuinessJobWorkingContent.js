@@ -11,7 +11,7 @@ const BuinessJobWorkingContent = () => {
             "contract": "my_token",
             "method": "transfer",
             "args": {
-            "amount":100000,
+            "amount":275000,
             "receiver":"disenador"
             }
           })

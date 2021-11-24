@@ -27,7 +27,7 @@ const DesignerArchivosSubidosContent = () => {
                     </div>
                     <div className="designer-archivos-texto">
                     <div> <p >FECHA DE ENTREGA: 24/12/2021</p></div>
-                    <div> <p >PAGO: 1'800,000</p></div>
+                    <div> <p >PAGO: 300,000</p></div>
                     <div> <p >DESCRIPCIÓN DEL PROYECTO: Diseño de logo</p></div>
                     </div>
                 </div>

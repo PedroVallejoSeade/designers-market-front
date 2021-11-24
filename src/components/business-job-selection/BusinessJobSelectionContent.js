@@ -12,7 +12,7 @@ const BusinessJobSelectionContent = () => {
             "contract": "my_token",
             "method": "recarga",
             "args": {
-            "amount":100000
+            "amount":300000
             }
           })
           .then(response => {

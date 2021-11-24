@@ -30,7 +30,7 @@ const DesignerOfertaDetalleContent = () => {
                 <h2 className="designer-h3"> Pago</h2>
                     <div className="designer-oferta-detalle-description">
                         <div>
-                            <p className="texto-oferta-detalle-description"> 1'800,000. </p>
+                            <p className="texto-oferta-detalle-description"> 300,000. </p>
                         </div>
                         <div>
                             <p className="texto-oferta-detalle-description"> Se dividirá el pago en 2: un pago inicial para empezar el proyecto y un pago al finalizar el trabajo. </p>
