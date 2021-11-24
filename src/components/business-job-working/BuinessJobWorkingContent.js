@@ -35,6 +35,19 @@ const BuinessJobWorkingContent = () => {
                     <div className="business-job-working-column-2">
                         <p className="poppins-30">*Recuerda que debes pagar antes de poder descargar la imagen sin marca de agua en su resolución completa</p>
                         <div className="separator"></div>
+                        <div className="separar">
+                        <Link style={{ textDecoration: 'none'}} to='/business/job-done'>
+                                <Button1 content= "Pedir entrega" ></Button1>
+                          </Link>
+                          
+                          </div>
+
+                          <div className="separar">
+                        <Link style={{ textDecoration: 'none'}} to='/business/job-done'>
+                                <Button1 content= "Comentarios" ></Button1>
+                          </Link>
+                          </div>
+
                         <div onClick={()=>transfer()}> 
                             <Link style={{ textDecoration: 'none'}} to='/business/job-done'>
                                 <Button1 content= "Pagar" ></Button1>

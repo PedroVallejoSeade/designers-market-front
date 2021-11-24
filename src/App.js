@@ -23,6 +23,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import DesignerContrato from './components/designer-contrato/DesignerContrato';
+import BusinessContrato from './components/business-contrato/BusinessContrato';
+import BusinessEspera from './components/business-espera/BusinessEspera';
 
 
 function App() {
@@ -51,6 +54,10 @@ function App() {
           <Route path='/business/job-working' element={<BuinessJobWorking/>}/>
           <Route path='/business/job-done' element={<BuinessJobDone/>}/>
           <Route path='/business/calification' element={<BusinessCalificacion/>}/>
+          <Route path='/designer/contrato' element={<DesignerContrato/>}/>
+          <Route path='/business/contrato' element={<BusinessContrato/>}/>
+          <Route path='/business/espera' element={<BusinessEspera/>}/>
+
         </Routes>
       </Router>
     </div>
